@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FOOD ORDER CONFIRMATION | FORMS</title>
+</head>
+<body>
+    <h1>ORDER CONFIRMATION</h1>
+    <hr> 
+   <strong>
+    <a href="">① Choose Food</a>
+    ► ② Confirm Order
+    ►<a href="">③ Pay</a>
+    ►<a href="">④ Wait</a>
+   </strong>
+    <hr>
+
+    <form action="test">
+        <fieldset>
+            <legend>Order Details</legend>
+            <table width="80%">
+                <tr>
+                    <td>
+                        <img width="70" align="center" src="https://www.corso.md/public/foods/thumbs/version_305x0x305x0x1/5e18b61685c57de5df6496aef91fddd0.png" alt="pizza1">
+                       Pizza Gusto
+                    </td>
+
+                    <td align="center">128.00MDL</td>
+                    <td align="center">
+                        <button>-</button>&nbsp 1 &nbsp<button>+</button>
+                    </td>
+                    <td align="center">
+                    <strong>128.00MDL</strong>
+                    </td>
+                    <td align="center">
+                       <a href=""><img src="img/Pictogrammers-Material-Light-Delete.24.png" alt=""></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img width="70" align="center" src="https://www.corso.md/public/foods/thumbs/version_305x0x305x0x1/f338ec73272eb1e45b76bdc5f9504284.jpg" alt="pizza2">
+                        Pizza Mexic
+                    </td>
+                    <td align="center">115.00MDL</td>
+                    <td align="center">
+                        <button>-</button>&nbsp 2 &nbsp<button>+</button>
+                    </td>
+                    <td align="center">
+                       <strong>230.00MDL</strong>
+                    </td>
+                    <td align="center">
+                        <a href="">
+                            <img src="img/Pictogrammers-Material-Light-Delete.24.png" alt="">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img width="70" align="center" src="https://www.corso.md/public/foods/thumbs/version_305x0x305x0x1/850f88480e1983b8c874387d75a812f0.png" alt="">
+                           Friends Box
+                    </td>
+                    <td align="center">860.00MDL</td>
+                    <td align="center">
+                        <button>-</button>&nbsp 1 &nbsp<button>+</button>
+                    </td>
+                    <td align="center">
+                        <strong>860.00MDL</strong>
+                    </td>
+                    <td align="center">
+                        <a href="">
+                            <img src="img/Pictogrammers-Material-Light-Delete.24.png" alt="">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img width="70" align="center" src="https://www.corso.md/public/foods/thumbs/version_305x0x305x0x1/defeaac820feb0d778ce04f2489040fa.jpg" alt="">
+                           Cricova Codru
+                    </td>
+                    <td align="center">160.00MDL</td>
+                    <td align="center">
+                        <button>-</button>&nbsp 4 &nbsp<button>+</button>
+                    </td>
+                    <td align="center">
+                        <strong>640.00MDL</strong>
+                    </td>
+                    <td align="center">
+                        <a href="">
+                            <img src="img/Pictogrammers-Material-Light-Delete.24.png" alt="">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"></td>
+                    <td colspan="3" align="center">TOTAL 
+                    &nbsp &nbsp <strong>1858.00MDL</strong>
+                    </td
+                </tr>
+            </table>
+        </fieldset>
+
+        <fieldset>
+            <legend>Contact Data</legend>
+
+            <label>
+                full name<br>
+                <input type="text" placeholder="eg: Marry Doe"
+                required
+                pattern="[A-Z]{1}[a-z]+ [A-Z]{1}[a-z]+"
+                name="full_name"
+                >
+            </label>
+            <br><br>
+            <label>
+                phone number<br>
+                <input type="text" placeholder="eg: +3738789213"
+                required
+                pattern="[0-9_-]{7,}"
+                name="phone_number"
+                >
+            </label>
+             <br><br>
+
+            <label>
+                <input type="checkbox"
+                 name="agree"
+                 required
+                 value="yes">
+                I agree with terms and Conditions
+            </label>
+        </fieldset>
+          <br>
+        <button>NEXT</button>
+
+    </form>
+    
+</body>
+</html>
